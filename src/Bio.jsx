@@ -22,14 +22,18 @@ const AboutMe = props => (
             />
           </Col>
           <Col lg="8">
-            <h5>
-              Natural logical thinker, inspired to pursue a greater cause.
-              Currently working as a full-time employee for Telecom Innovations,
-              as a low-voltage-technician. Experienced in HTML5, CSS3,
-              Javascript, JQuery, Bootstrap, ReactJs, Node Js, MySQL, MongoDB,
-              Express and Handlebars JS. Superior analyst and critical thinker
-              searching for a position in frontend development.
-            </h5>
+            <p>
+              Hey there! Thanks for visiting my website! My name is Joshua
+              Kelly. As a recent graduate of Georgia Tech's Full Stack Web
+              Development Boot Camp Program, web development has completely
+              taken over my life. Keeping up with trends and constantly changing
+              technologies has certainly become a lifestyle. Honestly tho, if it
+              were any different, then I wouldn't want it. This industry
+              embodies creativity and imagination at its finest. There's always
+              an undying push to innovate, intense competition to be the best,
+              and massive potential to change the world. I feel blessed to have
+              finally found an outlet to make my mark in history.
+            </p>
           </Col>
         </Row>
 
