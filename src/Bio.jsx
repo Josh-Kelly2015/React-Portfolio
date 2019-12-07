@@ -4,7 +4,7 @@ import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
 import Container from "react-bootstrap/Container";
 import Card from "react-bootstrap/Card";
-import ComputerBackground from "../Images/technics-q-c-640-480-1.jpg";
+import ComputerBackground from "./Images/technics-q-c-640-480-1.jpg";
 const AboutMe = props => (
   <section className="container-fluid bg-light" id="bio">
     <Container className="mt-5">
