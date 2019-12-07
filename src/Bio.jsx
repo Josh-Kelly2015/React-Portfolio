@@ -7,7 +7,7 @@ import Card from "react-bootstrap/Card";
 import Jumbotron from "react-bootstrap/Jumbotron";
 import ComputerBackground from "./Images/technics-q-c-640-480-1.jpg";
 const AboutMe = props => (
-  <Container fluid className=" bg-light">
+  <Container fluid>
     <Row className="justify-content-center">
       <h1>About Me</h1>
     </Row>

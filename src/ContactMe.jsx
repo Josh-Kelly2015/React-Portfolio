@@ -5,7 +5,7 @@ import Container from "react-bootstrap/Container";
 import Jumbotron from "react-bootstrap/Jumbotron";
 import Button from "react-bootstrap/Button";
 const ContactMe = props => (
-  <Container fluid className="bg-light">
+  <Container fluid>
     <Row className="justify-content-center">
       <h1>Contact Me</h1>
     </Row>

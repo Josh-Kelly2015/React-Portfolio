@@ -6,7 +6,7 @@ import Button from "react-bootstrap/Button";
 import Row from "react-bootstrap/Row";
 
 const MyPortfolio = props => (
-  <Container fluid className="text-white bg-dark">
+  <Container fluid>
     <Row className="justify-content-center">
       <h1>My Portfolio</h1>
     </Row>
@@ -15,10 +15,10 @@ const MyPortfolio = props => (
         <Carousel.Item>
           <img
             src={ComputerBackground}
-            className="d-block w-100 imgBx"
+            className="d-block w-100"
             alt="RPG Game"
           />
-          <Carousel.Caption className="content">
+          <Carousel.Caption>
             <h1>Evolve Business</h1>
             <p>Helping businesses over come innefficincies</p>
             <Button
@@ -34,7 +34,7 @@ const MyPortfolio = props => (
         <Carousel.Item>
           <img
             src={ComputerBackground}
-            className="d-block w-100 imgBx"
+            className="d-block w-100"
             alt="RPG Game"
           />
           <Carousel.Caption>
@@ -53,7 +53,7 @@ const MyPortfolio = props => (
         <Carousel.Item>
           <img
             src={ComputerBackground}
-            className="d-block w-100 imgBx"
+            className="d-block w-100"
             alt="RPG Game"
           />
           <Carousel.Caption>
