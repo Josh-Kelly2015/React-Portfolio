@@ -10,34 +10,36 @@ const ContactMe = props => (
     <Row className="justify-content-center">
       <h1>Contact Me</h1>
     </Row>
-    <Jumbotron className="shadow-lg">
-      <Form>
-        <Form.Row>
-          <Form.Group as={Col} controlId="formGridEmail">
-            <Form.Label>First Name</Form.Label>
-            <Form.Control type="text" placeholder="First Name" />
+    <Container>
+      <Jumbotron className="shadow-lg">
+        <Form>
+          <Form.Row>
+            <Form.Group as={Col} controlId="formGridEmail">
+              <Form.Label>First Name</Form.Label>
+              <Form.Control type="text" placeholder="First Name" />
+            </Form.Group>
+
+            <Form.Group as={Col} controlId="formGridPassword">
+              <Form.Label>Last Name</Form.Label>
+              <Form.Control type="text" placeholder="Last Name" />
+            </Form.Group>
+          </Form.Row>
+
+          <Form.Group controlId="formGridEmail">
+            <Form.Label>Email</Form.Label>
+            <Form.Control type="email" placeholder="Email" />
           </Form.Group>
 
-          <Form.Group as={Col} controlId="formGridPassword">
-            <Form.Label>Last Name</Form.Label>
-            <Form.Control type="text" placeholder="Last Name" />
+          <Form.Group controlId="formGridMessage">
+            <Form.Label>Message</Form.Label>
+            <Form.Control type="text" placeholder="Type your message here..." />
           </Form.Group>
-        </Form.Row>
-
-        <Form.Group controlId="formGridEmail">
-          <Form.Label>Email</Form.Label>
-          <Form.Control type="email" placeholder="Email" />
-        </Form.Group>
-
-        <Form.Group controlId="formGridMessage">
-          <Form.Label>Message</Form.Label>
-          <Form.Control type="text" placeholder="Type your message here..." />
-        </Form.Group>
-        <Button variant="primary" type="submit">
-          Submit
-        </Button>
-      </Form>
-    </Jumbotron>
+          <Button variant="primary" type="submit">
+            Submit
+          </Button>
+        </Form>
+      </Jumbotron>
+    </Container>
   </Container>
 );
 export default ContactMe;
