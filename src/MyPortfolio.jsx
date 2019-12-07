@@ -4,6 +4,7 @@ import Carousel from "react-bootstrap/Carousel";
 import Container from "react-bootstrap/Container";
 import Button from "react-bootstrap/Button";
 import Row from "react-bootstrap/Row";
+import Jumbotron from "react-bootstrap/Jumbotron";
 
 const MyPortfolio = props => (
   <Container fluid>
@@ -11,7 +12,7 @@ const MyPortfolio = props => (
       <h1>My Portfolio</h1>
     </Row>
     <Container>
-      <Carousel>
+      <Carousel className="shadow-lg">
         <Carousel.Item>
           <img
             src={ComputerBackground}
