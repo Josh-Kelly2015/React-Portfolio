@@ -11,13 +11,13 @@ const NavBar = props => (
           <Nav.Link href="/">Home</Nav.Link>
         </Nav.Item>
         <Nav.Item>
-          <Nav.Link href="/bio">Bio</Nav.Link>
+          <Nav.Link href="/self-bio">Bio</Nav.Link>
         </Nav.Item>
         <Nav.Item>
-          <Nav.Link href="/portfolio">My Portfolio</Nav.Link>
+          <Nav.Link href="/my-portfolio">My Portfolio</Nav.Link>
         </Nav.Item>
         <Nav.Item>
-          <Nav.Link href="/contact"> Contact Me</Nav.Link>
+          <Nav.Link href="/contact-me"> Contact Me</Nav.Link>
         </Nav.Item>
       </Nav>
     </Navbar.Collapse>
