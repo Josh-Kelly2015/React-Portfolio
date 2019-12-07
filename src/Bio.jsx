@@ -39,7 +39,9 @@ const AboutMe = props => (
 
         <Row>
           <Col>
-            <h3>Skills</h3>
+            <Row className="justify-content-center">
+              <h3>Skills</h3>
+            </Row>
             <ListGroup>
               <Card.Header>
                 React.JS, Handlebars, BootStrap, Flex-Box, Media Queries
@@ -55,7 +57,9 @@ const AboutMe = props => (
           </Col>
 
           <Col>
-            <h3>Goals</h3>
+            <Row className="justify-content-center">
+              <h3>Goals</h3>
+            </Row>
             <ListGroup>
               <Card.Header> Experiment with CSS animations</Card.Header>
               <Card.Header>Develop deeper JavaScript skills</Card.Header>
