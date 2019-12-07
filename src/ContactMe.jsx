@@ -33,6 +33,9 @@ const ContactMe = props => (
           <Form.Label>Message</Form.Label>
           <Form.Control type="text" placeholder="Type your message here..." />
         </Form.Group>
+        <Button variant="primary" type="submit">
+          Submit
+        </Button>
       </Form>
     </Jumbotron>
   </Container>
