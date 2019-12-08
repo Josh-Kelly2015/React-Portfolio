@@ -5,12 +5,11 @@ import Row from "react-bootstrap/Row";
 import Container from "react-bootstrap/Container";
 import Card from "react-bootstrap/Card";
 import Jumbotron from "react-bootstrap/Jumbotron";
+import Header from "./components/Header";
 import ComputerBackground from "./Images/technics-q-c-640-480-1.jpg";
 const AboutMe = props => (
   <Container fluid>
-    <Row className="justify-content-center">
-      <h1>About Me</h1>
-    </Row>
+    <Header title="About Me" />
     <Container>
       <Jumbotron className="shadow-lg">
         <Row>
