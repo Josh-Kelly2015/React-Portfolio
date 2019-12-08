@@ -6,9 +6,10 @@ import Bio from "./Bio";
 import MyPortfolio from "./MyPortfolio";
 import ContactMe from "./ContactMe";
 import NoMatch from "./NoMatch";
+import Container from "react-bootstrap/Container";
 function App() {
   return (
-    <>
+    <Container fluid>
       <NavBar />
       <Router>
         <Switch>
@@ -19,7 +20,7 @@ function App() {
           <Route path="*" component={NoMatch} />
         </Switch>
       </Router>
-    </>
+    </Container>
   );
 }
 

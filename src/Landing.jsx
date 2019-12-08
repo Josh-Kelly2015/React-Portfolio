@@ -2,12 +2,11 @@ import React from "react";
 import Row from "react-bootstrap/Row";
 import Container from "react-bootstrap/Container";
 import Button from "react-bootstrap/Button";
+import Header from "./components/Header";
 const Home = props => (
   <Container fluid>
     <Container>
-      <Row className="justify-content-center">
-        <h1>Joshua Kelly</h1>
-      </Row>
+      <Header title="Joshua Kelly" />
       <Row className="justify-content-center">
         <p>Full Stack Web Developer</p>
       </Row>

@@ -1,6 +1,5 @@
 import React from "react";
-import Navbar from "react-bootstrap/Navbar";
-import Nav from "react-bootstrap/Nav";
+import { Navbar, Nav } from "react-bootstrap";
 const NavBar = props => (
   <Navbar expand="lg">
     <Navbar.Brand href="/">Joshua Kelly</Navbar.Brand>
@@ -23,5 +22,4 @@ const NavBar = props => (
     </Navbar.Collapse>
   </Navbar>
 );
-
 export default NavBar;

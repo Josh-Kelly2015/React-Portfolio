@@ -5,11 +5,10 @@ import Container from "react-bootstrap/Container";
 import Button from "react-bootstrap/Button";
 import Row from "react-bootstrap/Row";
 import Jumbotron from "react-bootstrap/Jumbotron";
+import Header from "./components/Header";
 const MyPortfolio = props => (
   <Container fluid>
-    <Row className="justify-content-center">
-      <h1>My Portfolio</h1>
-    </Row>
+    <Header title="My Portfolio" />
     <Container>
       <Jumbotron className="shadow-lg">
         <Carousel>

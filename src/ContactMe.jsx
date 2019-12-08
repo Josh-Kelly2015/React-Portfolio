@@ -4,12 +4,11 @@ import Jumbotron from "react-bootstrap/Jumbotron";
 import Button from "react-bootstrap/Button";
 import Form from "react-bootstrap/Form";
 import Col from "react-bootstrap/Col";
-import Row from "react-bootstrap/Row";
+// import Row from "react-bootstrap/Row";
+import Header from "./components/Header";
 const ContactMe = props => (
   <Container fluid>
-    <Row className="justify-content-center">
-      <h1>Contact Me</h1>
-    </Row>
+    <Header title="Contact Me" />
     <Container>
       <Jumbotron className="shadow-lg">
         <Form>
