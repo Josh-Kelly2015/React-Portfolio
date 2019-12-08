@@ -2,14 +2,20 @@ import React from "react";
 import { Row, Button } from "react-bootstrap";
 import Header from "../components/Header";
 import ContentWrapper from "../components/ContentWrapper";
+import { Animated } from "react-animated-css";
 const Home = props => (
   <ContentWrapper>
-    <Header title="Joshua Kelly" />
+    <Animated
+      animationIn="bounceInLeft"
+      animationOut="fadeOut"
+      isVisible={true}
+    >
+      <Header title="Joshua Kelly" />
 
-    <Row className="justify-content-center">
-      <p>Full Stack Web Developer</p>
-    </Row>
-
+      <Row className="justify-content-center">
+        <p>Full Stack Web Developer</p>
+      </Row>
+    </Animated>
     <Row className="justify-content-around">
       <Button size="lg" href="https://github.com/Josh-Kelly2015">
         Github
