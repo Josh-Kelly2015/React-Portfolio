@@ -1,11 +1,11 @@
 import React from "react";
-import ComputerBackground from "./Images/technics-q-c-640-480-1.jpg";
+import ComputerBackground from ".././Images/technics-q-c-640-480-1.jpg";
 import Carousel from "react-bootstrap/Carousel";
 import Container from "react-bootstrap/Container";
 import Button from "react-bootstrap/Button";
 import Row from "react-bootstrap/Row";
 import Jumbotron from "react-bootstrap/Jumbotron";
-import Header from "./components/Header";
+import Header from "../components/Header";
 const MyPortfolio = props => (
   <Container fluid>
     <Header title="My Portfolio" />

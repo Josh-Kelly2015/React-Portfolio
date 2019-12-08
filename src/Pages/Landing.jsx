@@ -2,7 +2,7 @@ import React from "react";
 import Row from "react-bootstrap/Row";
 import Container from "react-bootstrap/Container";
 import Button from "react-bootstrap/Button";
-import Header from "./components/Header";
+import Header from "../components/Header";
 const Home = props => (
   <Container fluid>
     <Container>
