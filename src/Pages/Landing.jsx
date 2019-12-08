@@ -1,32 +1,22 @@
 import React from "react";
-import { Row, Button } from "react-bootstrap";
+import Container from "react-bootstrap/Container";
 import Header from "../components/Header";
-import ContentWrapper from "../components/ContentWrapper";
 import { Animated } from "react-animated-css";
-const Home = props => (
-  <ContentWrapper>
+import HeaderCaption from "../components/HeaderCaption";
+import SocialMediaLinks from "../components/LandingComponents/SocialMediaLinks";
+const Landing = props => (
+  <Container>
     <Animated
-      animationIn="bounceInLeft"
+      animationIn="fadeIn"
       animationOut="fadeOut"
+      animationInDuration={1800}
+      animationOutDuration={1800}
       isVisible={true}
     >
       <Header title="Joshua Kelly" />
-
-      <Row className="justify-content-center">
-        <p>Full Stack Web Developer</p>
-      </Row>
+      <HeaderCaption caption="Full Stack Web Developer" />
+      <SocialMediaLinks />
     </Animated>
-    <Row className="justify-content-around">
-      <Button size="lg" href="https://github.com/Josh-Kelly2015">
-        Github
-      </Button>
-      <Button
-        size="lg"
-        href="https://www.linkedin.com/in/joshua-kelly-482196185/"
-      >
-        LinkedIn
-      </Button>
-    </Row>
-  </ContentWrapper>
+  </Container>
 );
-export default Home;
+export default Landing;
