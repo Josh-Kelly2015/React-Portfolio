@@ -1,6 +1,6 @@
 import React from "react";
 import ComputerBackground from "../../Images/technics-q-c-640-480-1.jpg";
-import { Carousel, Button, Container } from "react-bootstrap";
+import { Carousel, Button } from "react-bootstrap";
 const MyProjects = props => (
   <Carousel>
     <Carousel.Item>
